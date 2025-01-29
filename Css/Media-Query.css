@@ -1,0 +1,46 @@
+@media (min-width:375px) and (max-width:990px)
+{
+    #search-form
+    {
+        margin-left: 35px;
+
+    }
+
+}
+
+@media (min-width:300px) and (max-width:1100px)
+{
+    .hero-img img
+    {
+        position: relative;
+        top: 20px;
+        height: 231px;
+    }
+
+    .hero-text h1
+    {
+        font-size: 1.9rem;
+    }
+
+    .Service h1
+    {
+        font-size: 1.6rem;
+        font-weight: bold;
+    }
+
+    .Service p
+    {
+        font-size: .85rem;
+    }
+}
+
+@media (max-width: 765px)
+{
+    .counter-content
+    {
+        padding-top: 24px !important;
+        padding-bottom: 24px !important;
+    }
+}
+
+

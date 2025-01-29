@@ -1,0 +1,105 @@
+*{
+    font-family: "Poppins", serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+        /* Navbar */
+
+#navbar-top{
+    background-color: #daac00;
+    padding: 10px 8%;
+}
+
+.nav-item a{
+    color: #fff !important;
+    font-weight: bold;
+    margin-left: 35px;
+    border-radius: 20px;
+}
+
+.nav-item a:hover{
+    background-color: #fcc302;
+    border-radius: 20px;
+}
+
+#search-form{
+    box-shadow: 0 0 20px #00000021;
+}
+
+#search-form input{
+    border: 0;
+    border-radius: 0;
+    background-color:#fcc302
+}
+
+#search-form input::placeholder{
+    color: #fff;
+}
+
+#search-btn{
+    border-radius: 0;
+    border: 0;
+    font-weight: bold;
+}
+
+        /* Hero-SEction */
+#Hero-Section{
+    background-color:#fcc302;
+}
+
+.hero-text h1{
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+.hero-text p{
+    font-size: 1.2rem;
+    margin-top: 35px;
+}
+    /*  Services*/
+.Service h1{
+    font-size: 2.7rem;
+    font-weight: bold;
+}
+
+.Service p{
+    margin: 20px 0;
+}
+    /* Counter */
+.Counter{
+    background-color: #fcc302;
+    color: #fff;
+}
+
+.Counter h1 i{
+    font-size: 3.5rem;
+}
+    /* Blogs */
+.Blog-post{
+    color: rgb(21, 222, 236);
+    font-weight: bold;
+    cursor: pointer;
+}
+    /* Footers */
+.Footer div p a, .Footer p
+{
+    text-decoration: none;
+    color: #fff;
+}
+
+.Footer-icon{
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.Footer-icon i:hover{
+    background: linear-gradient(#fcc302,red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.Copyright{
+    background-color: gray;
+}
